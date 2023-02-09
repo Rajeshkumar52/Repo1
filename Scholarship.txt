@@ -1,0 +1,3524 @@
+package JustExample;
+
+import java.util.Scanner;
+
+public class Scholarship {
+
+
+		public static void main(String[] args) {
+			
+			String college;
+			
+			int state,district,department;
+			int age,mark,year;
+			String name,gender,Adress;
+			
+//			System.out.println("1.Select the State.");
+//			System.out.println("2.Select the District.");
+//			System.out.println("3.Select the College.");
+//			System.out.println("4.Select the Department.");
+//			System.out.println("5.End the block.");
+//			System.out.println();
+			
+			Scanner scr = new Scanner(System.in);
+			
+			lp : while(true) {
+			
+				System.out.println();
+				System.out.println("1.Kerala.");
+				System.out.println("2.TamilNadu.");
+				System.out.println("3.Karnataka.");
+				System.out.println("4.End the 'process.");
+				System.out.println();
+			
+			System.out.println("Select the State : ");
+			state=scr.nextInt();
+
+			switch (state) {
+			
+			case 1 :
+				
+				System.out.println("1.Trivandrum");
+				System.out.println("2.Kochi");
+				System.out.println("3.Calicut");
+				System.out.println();
+						
+				System.out.println("Select the District : ");
+				district = scr.nextInt();
+				
+				switch(district) {
+				
+				case 1:
+					
+					System.out.println("a.Govt. Engineering College");
+					System.out.println("b.Arts and Science College");
+					System.out.println("c.St.Pauls College");
+					System.out.println();
+					
+					System.out.println("Select the College : ");
+					college = scr.next();
+
+					switch (college) {
+					
+					case "a":
+						System.out.println("1.Mechanical Engineering.");
+						System.out.println("2.Electronics and Communication Engineering.");
+						System.out.println("3.Civil Engineering.");
+						System.out.println();
+						
+						System.out.println("Select the Deparatment : ");
+						department = scr.nextInt();
+						
+						switch(department) {
+						
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4. Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+" "+gender+"\n"+" "+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+" "+gender+"\n"+" "+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println();
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+							
+						}break;    // switch break.
+						
+					case "b":
+						System.out.println("1.BSc Lictrature.");
+						System.out.println("2.BSc Language.");
+						System.out.println("3.BSc Mathematics");
+						System.out.println();
+						
+						System.out.println("Select the Department : ");
+						department = scr.nextInt();
+						
+						switch (department) {
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;
+							
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;
+							
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;
+							
+						} break;      // last switch break.
+								
+					case "c":
+						System.out.println("1.BSc Physics.");
+						System.out.println("2.BSc Chemistry.");
+						System.out.println();
+						
+						System.out.println("Select the Department : ");
+						department = scr.nextInt();
+						
+						switch (department) {
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;
+					case 2:
+						System.out.println("1. First year.");
+						System.out.println("2. Second year.");
+						System.out.println("3. Third year.");
+					
+						System.out.println("Select your Choice : ");
+						year = scr.nextInt();
+					
+						switch(year) {
+					
+						case 1:
+							System.out.println("You are not eligible for the Scholarship.");
+							break;
+						case 2 :
+							System.out.println("You are not eligible for the Scholarship.");
+							break;
+						case 3 :
+							System.out.println("You are eligible for the scholarship.");
+							System.out.println();
+							System.out.println("Enter the mark @ round off '10' : ");
+							mark = scr.nextInt();
+							
+							switch (mark) {
+								
+							case 10 :
+								System.out.println("Not Eligible for the Scholarship.");
+								break;
+							case 20:
+								System.out.println("Not Eligible for the Scholarship.");
+								break;
+							case 30 :
+								System.out.println("Not Eligible for the Scholarship.");
+								break;
+							case 40:
+								System.out.println("Not Eligible for the Scholarship.");
+								break;
+							case 50 :
+								System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+								System.out.println("Enter the name : ");
+								name = scr.next();
+								System.out.println("Enter the Adress : ");
+								Adress = scr.next();
+								System.out.println("Enter the Gender : ");
+								gender = scr.next();
+								System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+								break;
+							case 60 :
+								System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+								System.out.println("Enter the name : ");
+								name = scr.next();
+								System.out.println("Enter the Adress : ");
+								Adress = scr.next();
+								System.out.println("Enter the Gender : ");
+								gender = scr.next();
+								System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+								break;
+							case 70:
+								System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+								System.out.println("Enter the name : ");
+								name = scr.next();
+								System.out.println("Enter the Adress : ");
+								Adress = scr.next();
+								System.out.println("Enter the Gender : ");
+								gender = scr.next();
+								System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+								break;
+							case 80:
+								System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+								System.out.println("Enter the name : ");
+								name = scr.next();
+								System.out.println("Enter the Adress : ");
+								Adress = scr.next();
+								System.out.println("Enter the Gender : ");
+								gender = scr.next();
+								System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+								break;
+							case 90 :
+								System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+								System.out.println("Enter the name : ");
+								name = scr.next();
+								System.out.println("Enter the Adress : ");
+								Adress = scr.next();
+								System.out.println("Enter the Gender : ");
+								gender = scr.next();
+								System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+								break;
+							case 100 :
+								System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+								System.out.println("Enter the name : ");
+								name = scr.next();
+								System.out.println("Enter the Adress : ");
+								Adress = scr.next();
+								System.out.println("Enter the Gender : ");
+								gender = scr.next();
+								System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+								break;
+							default :
+								System.out.println("Enter the mark at the round of 10.");
+								break;
+							}
+						default:
+							System.out.println("Enter the valid Input.");
+							break;
+						}break;	
+							
+						}break;
+					}break;
+				case 2:
+					
+					System.out.println("a.College of Engineering,Ernamkulam");
+					System.out.println("b.Le-Shore College");
+					System.out.println("c.Devagiri College");
+					System.out.println();
+					
+					System.out.println("Select the College : ");
+					college = scr.next();
+					
+					switch(college) {
+					
+					case "a":
+						System.out.println("1.Mechanical Engineering.");
+						System.out.println("2.Electronics and Communicarion Engineering.");
+						System.out.println("3.Electrical Engineering.");
+						System.out.println("4.Civil Engineering.");
+						System.out.println();
+						
+						System.out.println("Select Department : ");
+						department = scr.nextInt();
+						
+						switch(department) {
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+							
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+							
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+							
+						case 4:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+						}
+						
+					case "b":
+						
+						System.out.println("1.BSC Nursing.");
+						System.out.println("2.General Nursing.");
+						System.out.println();
+						
+						System.out.println("Select the Department : ");
+						department=scr.nextInt();
+						
+						switch(department) {
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+							
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+						}
+						break;
+						
+					case "c":
+						System.out.println("1.BSc physics.");
+						System.out.println("2.BSc Chemistry.");
+						System.out.println("3.BSc Language.");
+						System.out.println("4.BSc Mathematics.");
+						System.out.println();
+						
+						System.out.println("Select the Department : ");
+						department=scr.nextInt();
+						
+						switch(department) {
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+						case 4:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+								default:
+									System.out.println("Enter the valid Input.");
+								break;
+							}break;	
+						}
+						
+					}
+					
+					break;
+					
+				case 3:
+					
+					System.out.println("a.Govt. Engineering College,Calicut");
+					System.out.println("b.Ferook College");
+					System.out.println("c.Zamoories College,Calicut");
+					System.out.println();
+					
+					System.out.println("Select the College : ");
+					college = scr.next();
+					
+					switch(college) {
+					
+					case "a":
+						System.out.println("1.Computer Science Engineering.");
+						System.out.println("2.Electronics and Communication Engineering.");
+						System.out.println("3.Electrical Engineering.");
+						System.out.println("4.Mechanical Engineering.");
+						System.out.println("5.Civil Engineering.");
+						
+						System.out.println("Select the Department : ");
+						department = scr.nextInt();
+						
+						switch (department) {
+						
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 4:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 5:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+							System.out.println("4.Fourth year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are not eligiblr for the scholarship.");
+								break;
+							case 4 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+					}
+						
+					case "b":
+						System.out.println("1.MSc English.");
+						System.out.println("2.BSc malayalam.");
+						System.out.println("3.BSc Zology.");
+						System.out.println("4.BSc Botony.");
+						
+						System.out.println("Select the Department : ");
+						department = scr.nextInt();
+								
+						switch(department) {
+						
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 4:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						}
+						
+					case "c":
+						System.out.println("1. BSc mathematics.");
+						System.out.println("2.BSc Economics.");
+						System.out.println("3.BBA.");
+						System.out.println("4.BBM.");
+						
+						System.out.println("Select the Department : ");
+						department = scr.nextInt();
+						
+						switch(department) {
+						case 1:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 2:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 3:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}
+							default:
+								System.out.println("Enter the valid Input.");
+								break;
+						}break;
+						
+						case 4:
+							System.out.println("1. First year.");
+							System.out.println("2. Second year.");
+							System.out.println("3. Third year.");
+						
+							System.out.println("Select your Choice : ");
+							year = scr.nextInt();
+						
+							switch(year) {
+						
+							case 1:
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 2 :
+								System.out.println("You are not eligible for the Scholarship.");
+								break;
+							case 3 :
+								System.out.println("You are eligible for the scholarship.");
+								System.out.println();
+								System.out.println("Enter the mark @ round off '10' : ");
+								mark = scr.nextInt();
+								
+								switch (mark) {
+									
+								case 10 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 20:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 30 :
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 40:
+									System.out.println("Not Eligible for the Scholarship.");
+									break;
+								case 50 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 60 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 70:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 80:
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 90 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								case 100 :
+									System.out.println("Eligible for the Scholarship." +"\n"+ "Enter the name and details.");
+									System.out.println("Enter the name : ");
+									name = scr.next();
+									System.out.println("Enter the Adress : ");
+									Adress = scr.next();
+									System.out.println("Enter the Gender : ");
+									gender = scr.next();
+									System.out.println("Name & Adress of the Student : "+"\n"+name +"\n"+gender+"\n"+ Adress );
+									break;
+								default :
+									System.out.println("Enter the mark at the round of 10.");
+									break;
+								}break;
+						}
+						default:
+							System.out.println("Enter the valid Input.");
+							break;
+						}
+					}
+				}
+			break;
+			
+			case 2:
+				
+				System.out.println("1.Chennai");
+				System.out.println("2.Coimbatore");
+				System.out.println("3.Palani");
+				System.out.println("4.Tiruppur");
+				System.out.println();
+				
+				System.out.println("Select the District : ");
+				district = scr.nextInt();	
+			break;
+			
+			case 3:
+				
+				System.out.println("1.Mysore");
+				System.out.println("2.Bangalore");
+				System.out.println();
+				
+				System.out.println("Select the District : ");
+				district =scr.nextInt();
+			break;
+			
+			case 4:
+				System.out.println("YOU HAVE BEEN KICKED OUT FROM THE PROCESS.");
+			break lp;
+		}}
+		}}
