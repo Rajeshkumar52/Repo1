@@ -1,0 +1,53 @@
+ <br>
+    <div id="address">
+     <div id="=from">
+        <br><br>
+        
+       <p>TecText</p>
+       <p>REVI</p>
+       <p>Email ID:TecText@gmail.com</p>
+       <p>PHONENO:7639155225</p>
+       <p>GST NO:31500xx5225sd55</p>
+
+     </div>
+<div id="to">
+    <p>SHIPEED to</p>
+   <p> BAVANI TEX</p>
+   <p> PHONENO:98523698</p>
+   <p>vechino:TN42N0256</p>
+</div>
+</div>
+
+ <div>
+<table id="purchase">
+    <tr>
+        <th>#</th>
+        <th>item</th>
+        <th>hsa/sac</th>
+        <th>unit</th>
+        <th>quantity</th>
+        <th>rate</th>
+        <th>taxable amount</th>
+        <th>gst</th>
+        <th>cgst</th>
+        <th>sgst</th>
+        <th>total amount</th>
+    </tr>
+</table>
+    </div>
+*#address{
+    justify-content: space-around;
+    display: flex;
+
+}
+#to{
+    width: 50%;
+    
+}#from{
+    width: 50%;
+    float: right;
+}
+table purchase{
+    border: 2px;
+    
+}*/
